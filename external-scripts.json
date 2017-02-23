@@ -9,5 +9,7 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-jokes",
-  "hubot-forecastio"
+  "hubot-forecastio",
+  "hubot-youtube",
+  "hubot-plusplus"
 ]
