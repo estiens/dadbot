@@ -47,7 +47,17 @@ ways_to_say_good_night = [
   "Felices Sueños"
 ]
 
+seven_minute_dance_party = [
+  'Did someone say something about a 7 minute dance party?',
+  '7 MINUTE DANCE PARTY!',
+  'Time for a 7 minute dance party everyone',
+  'Hey, how about a 7 minute dance party?'
+]
+
 module.exports = (robot) ->
+  robot.hear /dance/i, (msg) ->
+    msg.send msg.random seven_minute_dance_party
+    
   robot.hear /good morning/i, (msg) ->
     msg.send msg.random ways_to_say_good_morning
 
@@ -61,4 +71,4 @@ module.exports = (robot) ->
     if Math.floor(Math.random() * 6) + 1 < 3
       msg.send msg.random starlas
     if Math.floor(Math.random() * 6) + 1 < 3
-      msg.send msg.random starlas
+      msg.send msg.random starlasç
