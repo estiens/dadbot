@@ -16,6 +16,7 @@
     "hubot-jokes": "0.0.12",
     "hubot-maps": "0.0.2",
     "hubot-memegeneration": "^2.2.0",
+    "hubot-outofcontext": "^1.0.1",
     "hubot-plusplus": "^1.4.0",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
