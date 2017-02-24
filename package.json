@@ -6,6 +6,7 @@
   "description": "Like a bananaphone, but a robot",
   "dependencies": {
     "hubot": "^2.19.0",
+    "hubot-cute-me": "^1.0.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-forecastio": "^1.1.2",
     "hubot-google-images": "^0.2.6",
