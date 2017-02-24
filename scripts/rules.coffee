@@ -10,7 +10,7 @@
 rules = [
   "1. Bring your best.",
   "2. Bring something to share",
-  "3. Let the whiole album side play.",
+  "3. Let the whole album side play.",
   "4. Don't spooge in the hottub.",
   "5. Inside voices outside"
   ]
