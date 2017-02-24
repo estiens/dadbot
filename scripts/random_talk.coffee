@@ -47,10 +47,6 @@ ways_to_say_good_night = [
   "Felices Sueños"
 ]
 
-starlas = [
-
-]
-
 module.exports = (robot) ->
   robot.hear /good morning/i, (msg) ->
     msg.send msg.random ways_to_say_good_morning
@@ -60,3 +56,9 @@ module.exports = (robot) ->
 
   robot.respond /starla bomb/i, (msg) ->
     msg.send msg.random starlas
+    if Math.floor(Math.random() * 6) + 1 < 3
+      msg.send msg.random starlas
+    if Math.floor(Math.random() * 6) + 1 < 3
+      msg.send msg.random starlas
+    if Math.floor(Math.random() * 6) + 1 < 3
+      msg.send msg.random starlas
