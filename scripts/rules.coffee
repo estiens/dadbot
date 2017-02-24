@@ -22,9 +22,5 @@ robot_rules = [
   ]
 
 module.exports = (robot) ->
-  robot.respond /(what are )?the (three |3 )?(rules|laws)/i, (msg) ->
-    text = msg.message.text
-    if text.match(/robot/i) or text.match(/asimov/i)
-      msg.send robot_rules.join('\n')
-    else
-      msg.send rules.join('\n')
+  robot.respond /zubas rules/i, (msg) ->
+    msg.send rules.join('\n')
